@@ -3,7 +3,7 @@
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>开篇 | Catch</title>
-<link rel="shortcut icon" href="https://jetwind.github.io/favicon.ico?v=1583057988414">
+<link rel="shortcut icon" href="https://jetwind.github.io/favicon.ico?v=1583058637666">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://jetwind.github.io/styles/main.css">
 <link rel="alternate" type="application/atom+xml" title="开篇 | Catch - Atom Feed" href="https://jetwind.github.io/atom.xml">
@@ -22,7 +22,7 @@ Hello, 欢迎来到Catch的博客, 2020年初入,就是不平凡的一年, 相�
       <div class="main-content">
         <div class="site-header">
   <a href="https://jetwind.github.io">
-  <img class="avatar" src="https://jetwind.github.io/images/avatar.png?v=1583057988414" alt="">
+  <img class="avatar" src="https://jetwind.github.io/images/avatar.png?v=1583058637666" alt="">
   </a>
   <h1 class="site-title">
     Catch
@@ -171,6 +171,32 @@ Hello, 欢迎来到Catch的博客, 2020年初入,就是不平凡的一年, 相�
 
         
 
+        
+          
+            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container"></div>
+
+<script>
+
+  var gitalk = new Gitalk({
+    clientID: '51019394a729301bbd68',
+    clientSecret: '8bad86ce99f953fefba7dc80f1e1448be8b8ddb2',
+    repo: 'jetwind.github.io',
+    owner: 'jetwind',
+    admin: ['jetwind'],
+    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
+
+  gitalk.render('gitalk-container')
+
+</script>
+
+          
+
+          
         
 
         <div class="site-footer">

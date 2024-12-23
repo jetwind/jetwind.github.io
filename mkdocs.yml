@@ -1,0 +1,4 @@
+site_name: jetwind's home
+site_url: https://jetwind.github.io/
+theme:
+  name: material
